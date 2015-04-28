@@ -1,0 +1,12 @@
+input {
+	background-color: yellow;
+}
+
+#lastname {
+	color: blue;
+	font-weight: bold;
+}
+
+p {
+	border-style: solid;
+}

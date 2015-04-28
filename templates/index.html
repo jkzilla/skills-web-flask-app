@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application</title>
+	<link rel="stylesheet" type="text/css" href="./static/styles.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	
+</head>
+<body>
+	<h1>Ubermelon Application</h1>
+	<p>We simply hope that you are ready for a career here. It is a magical place, where tigers and unicorns and lions coexist peacefully. Choose which job you would like to apply for carefully.</p>
+	<form action = "/submit" method="POST">
+		<label>Please fill out our application form below: </label><br>
+		<label>First Name: </label><input type = "text" name="first-name" id="firstname"><br>
+		<label>Last Name: </label><input type = "text" name="last-name" id="lastname"><br>
+		<label>Salary requirement: </label><input type = "text" name="salary" id="salary"><br>
+		<label>Which job are you applying for? </label>
+			<select name = "job" id="job">
+				<option value="software">Software Engineer</option>
+				<option value = "qa">QA Engineer</option>
+				<option value="product-manager">Product Manager</option>
+			</select>
+		<input	type="submit">
+	</form>
+</body>
+</html>
